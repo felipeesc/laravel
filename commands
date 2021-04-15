@@ -1,0 +1,15 @@
+docker-compose up -d       | subir
+logs micro-videos-nginx    | pega os logs
+
+docker-compose exec app bash - entrar bash
+php artisan dump-server             - esse cara é para usar o dump
+
+
+## soluções
+
+chown -R felipeesc:felipeesc
+
+
+abra o git bash
+caminhe até a pasta /.docker do projeto
+digite o commando dos2unix entrypoint.sh
