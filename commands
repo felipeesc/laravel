@@ -11,7 +11,6 @@ php artisan dump-server             - esse cara é para usar o dump
 
 chown -R felipeesc:felipeesc
 
-
 abra o git bash
 caminhe até a pasta /.docker do projeto
 digite o commando dos2unix entrypoint.sh
