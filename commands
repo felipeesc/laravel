@@ -6,7 +6,6 @@ logs micro-videos-nginx    | pega os logs
 docker-compose exec app bash - entrar bash
 php artisan dump-server             - esse cara é para usar o dump
 
-
 ## soluções
 
 chown -R felipeesc:felipeesc
