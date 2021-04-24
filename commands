@@ -19,3 +19,16 @@ php artisan make:model Models/Category --all
 
 ###Criando uma Seeder
 php artisan make:seeder CategoriesTableSeeder
+
+###Migrando tabela
+php artisan migrate --seed
+
+###Limpando e criando tudo novamente...
+php artisan migrate:refresh --seed
+
+### Apagar o banco e rodar novamente
+php artisan migrate:fresh --seed
+
+### usando tinker para buscar categorias por exemplo
+php artisan tinker
+    ex: \App\Models\Category:all();
