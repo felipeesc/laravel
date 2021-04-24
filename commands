@@ -14,6 +14,8 @@ abra o git bash
 caminhe até a pasta /.docker do projeto
 digite o commando dos2unix entrypoint.sh
 
-criando categoria
-
+###criando categoria
 php artisan make:model Models/Category --all
+
+###Criando uma Seeder
+php artisan make:seeder CategoriesTableSeeder
